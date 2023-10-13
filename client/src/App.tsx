@@ -1,8 +1,6 @@
 import './App.css';
+import { Terminal } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
-import { Terminal, Waves } from "lucide-react";
- 
 import {
   Alert,
   AlertDescription,
@@ -14,12 +12,12 @@ function App() {
   return (
     <>
       <Alert>
-      <Terminal className="h-4 w-4" />
-      <AlertTitle>Hello, World!</AlertTitle>
-      <AlertDescription>
-        Restaura coming soon...
-      </AlertDescription>
-    </Alert>
+        <Terminal className="h-4 w-4" />
+        <AlertTitle>Hello, World!</AlertTitle>
+        <AlertDescription>
+          Restaura coming soon...
+        </AlertDescription>
+      </Alert>
     </>
   )
 }
